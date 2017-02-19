@@ -48,34 +48,3 @@ function parseUri(uri) {
 
     return uriParts;
 }
-
-
-function getScheme(uri) {
-    var scheme = uri.substring(0, uri.indexOf("://"));
-
-    return scheme;
-}
-
-function getAuthority(uri) {
-    var authority = "authority"
-
-    return authority;
-}
-
-function getPath(uri) {
-    var path = "path";
-
-    return path;
-}
-
-function getQuery(uri) {
-    var query = "query";
-
-    return query;
-}
-
-function getFragment(uri) {
-    var fragment = "fragment";
-
-    return fragment;
-}
